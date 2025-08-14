@@ -208,7 +208,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ## 📞 Suporte
 
 - **Email**: pedrologingt232@gmail.com
-- **LinkedIn**: [[Seu LinkedIn](https://www.linkedin.com/in/pedro-azevedo-7aa711302/)]
+- **LinkedIn**: [[Pedro Azevedo Sena](https://www.linkedin.com/in/pedro-azevedo-7aa711302/)]
 
 ---
 
