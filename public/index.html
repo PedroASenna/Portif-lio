@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hero">
+                <h1>Seu Portfólio</h1>
+                <p>Especialista em Desenvolvimento e Consultoria Digital</p>
+                <a href="#contact" class="cta-button">Entre em Contato</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title fade-in">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">💻</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de sites e sistemas web modernos, responsivos e otimizados para seus objetivos de negócio.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📱</div>
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Desenvolvimento de aplicativos para Android e iOS com foco na experiência do usuário.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎨</div>
+                    <h3>Design Digital</h3>
+                    <p>Criação de identidades visuais, interfaces e experiências digitais impactantes.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📊</div>
+                    <h3>Consultoria Tech</h3>
+                    <p>Orientação estratégica para transformação digital e otimização de processos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title fade-in">Nosso Processo</h2>
+            <div class="process-steps">
+                <div class="process-step fade-in">
+                    <div class="step-number">1</div>
+                    <h3>Análise e Planejamento</h3>
+                    <p>Entendemos suas necessidades e objetivos para criar a estratégia ideal.</p>
+                </div>
+                <div class="process-step fade-in">
+                    <div class="step-number">2</div>
+                    <h3>Desenvolvimento</h3>
+                    <p>Criamos sua solução usando as melhores tecnologias e práticas do mercado.</p>
+                </div>
+                <div class="process-step fade-in">
+                    <div class="step-number">3</div>
+                    <h3>Testes e Entrega</h3>
+                    <p>Realizamos testes rigorosos e entregamos um produto de alta qualidade.</p>
+                </div>
+                <div class="process-step fade-in">
+                    <div class="step-number">4</div>
+                    <h3>Suporte Contínuo</h3>
+                    <p>Oferecemos manutenção e suporte para garantir o sucesso do seu projeto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Vamos Conversar?</h2>
+            <div class="form-container fade-in">
+                <div class="success-message" id="successMessage">
+                    ✅ Cadastro realizado com sucesso! Entraremos em contato em breve.
+                </div>
+                <div class="error-message" id="errorMessage">
+                    ❌ Erro ao enviar cadastro. Tente novamente.
+                </div>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo *</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone *</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="data_nascimento">Data de Nascimento</label>
+                            <input type="date" id="data_nascimento" name="nascimento">
+                        </div>
+                        <div class="form-group">
+                            <label for="profissao">Profissão</label>
+                            <input type="text" id="profissao" name="profissao">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Como podemos te ajudar?</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre seu projeto ou necessidade..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        Enviar Solicitação
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seu Nome Profissional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
