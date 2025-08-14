@@ -85,7 +85,7 @@ npx nodemon server.js
 ### Desenvolvimento Local
 
 1. Execute `npm install` para instalar dependências
-2. Execute `npm start` para iniciar o servidor
+2. Execute `node server.js` para iniciar o servidor
 3. Acesse: `http://localhost:3000` (ou a porta configurada)
 4. O banco SQLite será criado automaticamente
 
@@ -93,7 +93,7 @@ npx nodemon server.js
 
 1. Configure as variáveis de ambiente
 2. Execute `npm install --production`
-3. Inicie com `npm start`
+3. Inicie com `node server.js`
 4. Configure proxy reverso (Nginx) se necessário
 
 ## 🔧 Configuração do Banco de Dados
